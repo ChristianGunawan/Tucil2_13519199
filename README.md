@@ -5,5 +5,10 @@ Pada program ini akan membuat _Topology Sorting_ dengan Algortima _Decrease and 
 * Python 3.8
 * Windows 10
 
-#  Program Ini Dibuat Oleh :
+## Cara Menjalakan Program
+1. Buka cmd
+2. cd ke directory src "../src/"
+3. jalankan tucil2_13519199.py
+
+##  Program Ini Dibuat Oleh :
 > Christian Gunawan, 13519199, K04
