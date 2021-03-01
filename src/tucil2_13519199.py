@@ -20,7 +20,6 @@ j = 0
 f = open("namafile.txt", "r") #file yang akan dibaca
 f1 = f.readlines()
 
-
 #Algorritma
 for word in f1:
     listkata.append(word.strip().replace(".", "").replace(" ", "").split(",")) #urut
@@ -43,7 +42,7 @@ for j in range(len(listkata)) : #jika menunjuk
 
 def topology_sort(graph): #topografi
     if not bool[graph]: 
-        bool[graph] = True
+        bool[graph] = True 
         for graph2 in matkul[graph]:
             topology_sort(graph2)
         output.insert(0, graph)        
@@ -51,5 +50,5 @@ def topology_sort(graph): #topografi
 for graph in bool: #mencari semua hasil
     topology_sort(graph)
 
-for k in range(len(matkul)):
+for k in range(len(matkul)): #print untuk semua semester
     print("Semester {} : {}".format(k+1, output[k]))
